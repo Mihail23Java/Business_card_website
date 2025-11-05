@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Сайт визитка</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Михаил Свиридов</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="mailto:">
+        <i class="email"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="section_about_me">
+      <div class="text">
+        <h2>Привет, я Михаил 👋</h2>
+        <p>Обучаюсь программированию на 4 курсе. Имею небольшой опыт программирования в разных направлениях</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="skills_link"></i>
+            <span>Навыки</span>
+          </a>
+          
+          <!--
+          <a href="#testimony">
+            <i class="testimony_link"></i>
+            <span>Testimony</span>
+          </a>
+        -->
+          
+          <a href="#contact">
+            <i class="contact_link"></i>
+            <span>Связаться</span>
+          </a>
+        </div>
+      </div>
+      
+    
+      <div class="my_photo">
+        <!--<img src="" alt=""> -->
+      </div>
+    </section>
+
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Навыки</h2>
+      <div class="text">
+        Я обладаю следующими навыками: HTML, CSS, JavaScript, Java, C++, SQL, MySQL
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/Java-logo.png" alt="Java logo">
+          <span>Java</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/C_plus_plus-logo.png" alt="C_plus_plus logo">
+          <span>C++</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/SQL-logo.webp" alt="SQL logo">
+          <span>SQL</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/MySQL-logo.png" alt="MySQL logo">
+          <span>MySQL</span>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony 
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details"> 
+          -->
+
+          <!--
+          <img src="">
+          <p>Михаил Свиридов</p>
+          -->
+      <!--  </div>
+
+        <div class="text">
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, sint repudiandae ratione exercitationem saepe distinctio cumque quaerat nostrum laborum? Rem adipisci natus eos nemo reprehenderit, cumque nostrum enim commodi. Eum, enim vero eveniet doloremque sed veniam. Doloremque explicabo non reprehenderit expedita! Accusamus mollitia repellendus dolorum officiis libero quod deleniti cum."
+        </div>
+      </div>
+    </section>
+  -->
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Связаться</h2>
+
+      <div class="group">
+        <div class="text">
+          Отправьте свои данные, чтобы я мог с вами связаться
+        </div>
+
+        <form>
+          <label for="name">Имя</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Сообщение</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
